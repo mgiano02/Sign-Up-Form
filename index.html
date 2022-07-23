@@ -31,31 +31,46 @@
             <form action="">
                 <fieldset>
                     <legend>Let's do this!</legend>
+                    <div id="div-name">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    
+                    <div id="div-name2">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </fieldset>
 
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName" required>
+                <fieldset>
+                    <div id="div-email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-
-                    <label for="confirmPass">Confirm Password</label>
-                    <input type="password" id="confirmPass" name="confirmPass" required>
-                    <br>
-
-                    <button type="submit" id="createAccount">Create Account</button>
+                    <div id="div-phone">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <div id="div-pass">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div id="div-pass2">
+                        <label for="confirmPass">Confirm Password</label>
+                        <input type="password" id="confirmPass" name="confirmPass" required>
+                    </div>
 
                 </fieldset>
+                <br>
+                <button type="submit" id="createAccount">Create Account</button>
+                   
             </form>
-
+            <br>
             <p>Already have an account? <a href="">Log in</a></p>
 
         </div>
@@ -63,3 +78,6 @@
     </div>
 </body>
 </html>
+
+<!--Position logo
+    Add validation to form-->
